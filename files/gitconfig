@@ -1,0 +1,14 @@
+[user]
+	name = mindyor
+	email = or.mindy@gmail.com
+[alias]
+	st = status --short
+	ci = commit
+	co = checkout
+	sr = svn rebase
+	sd = svn dcommit
+	pr = pull --rebase
+	lg = log -10 --graph --decorate --all --date=relative --pretty=format:'%C(yellow)%h%Creset -%C(white)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset'
+	lgg = log --graph --decorate --all --date=relative --pretty=format:'%C(yellow)%h%Creset -%C(white)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset'
+	hard = reset --hard HEAD
+	pom = push origin master
