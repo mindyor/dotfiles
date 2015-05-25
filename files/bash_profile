@@ -85,6 +85,6 @@ setup_prompt
 export NVM_DIR=~/.nvm
   source $(brew --prefix nvm)/nvm.sh
 
-. ~/random/z/z.sh
+source ~/random/z/z.sh
 
 export PATH=/usr/local/sbin:$PATH
