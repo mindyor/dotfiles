@@ -12,3 +12,5 @@
 	lgg = log --graph --decorate --all --date=relative --pretty=format:'%C(yellow)%h%Creset -%C(white)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset'
 	hard = reset --hard HEAD
 	pom = push origin master
+	cm = commit -m
+	ca = commit --amend
