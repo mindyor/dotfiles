@@ -1,7 +1,6 @@
 source ~/.bashrc
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-source ~/.profile
 
 alias java_ls='/usr/libexec/java_home -V 2>&1 | grep -E "\d.\d.\d[,_]" | cut -d , -f 1 | colrm 1 4 | grep -v Home'
 
@@ -80,7 +79,6 @@ function setup_prompt() {
     export SUDO_PS1="$BLUE\\u$WHITE in $LGRAY\\w\\n${RED}λ ${RESET_COLOR}"
   fi
 }
-
 setup_prompt
 
 export NVM_DIR=~/.nvm
