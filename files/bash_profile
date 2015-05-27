@@ -25,7 +25,7 @@ killp() {
   IFS=$OLD_IFS;
 }
 
-alias reload_bash="source ~/.bash_profile"
+alias reload_setup="(cd dotfiles && ./setup.sh)"
 
 alias g=git
 
