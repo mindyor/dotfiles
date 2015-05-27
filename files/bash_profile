@@ -35,17 +35,10 @@ function mcd() {
 alias untar="tar xvzf"
 alias reload_bash="source ~/.bash_profile"
 
-alias gruntall="grunt lint && grunt test --once && grunt iso"
-alias gruntallall="gruntall && grunt fusion && grunt smoke"
-# don't forget appium & first
-alias runFT="gradle rFT -PTAGS=@appium -Pfeatures=features -PBROWSER=appium -PAPP_PATH=/Users/test/gap/snapscan/trunk/functional-tests/SnapScan-4.30837.30837-iphonesimulator.zip"
-alias iso="(z OisF && grunt isolation:local)"
-
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-
 
 alias g=git
 
@@ -85,5 +78,6 @@ export NVM_DIR=~/.nvm
   source $(brew --prefix nvm)/nvm.sh
 
 source ~/.z.sh
+source ~/.work_related.sh
 
 export PATH=/usr/local/sbin:$PATH
