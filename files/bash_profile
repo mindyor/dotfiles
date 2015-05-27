@@ -2,17 +2,6 @@ source ~/.bashrc
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-alias java_ls='/usr/libexec/java_home -V 2>&1 | grep -E "\d.\d.\d[,_]" | cut -d , -f 1 | colrm 1 4 | grep -v Home'
-
-# Switch java versions
-function java_use() {
-    export JAVA_HOME=$(/usr/libexec/java_home -v $1)
-    export PATH=$JAVA_HOME/bin:$PATH
-    java -version
-}
-java_use 1.6
-
-
 alias reload_setup="(cd dotfiles && ./setup.sh)"
 
 alias g=git
@@ -25,5 +14,7 @@ source ~/.work_related.sh
 source ~/.pretty_prompt.sh
 source ~/.directory_structure.sh
 source ~/.util.sh
+
+source ~/.java_specific.sh
 
 export PATH=/usr/local/sbin:$PATH
