@@ -12,18 +12,6 @@ function java_use() {
 }
 java_use 1.6
 
-ip() {
-  ifconfig -a | grep inet | grep broadcast | awk '{ print $2 }'
-}
-
-killp() {
-  OLD_IFS=$IFS;
-  lsof -i :$1 | grep TCP | while IFS= read -r line ; do
-    kill -9 `echo $line | awk '{ print $2 }'`;
-    echo `echo $line | awk '{ print $1 }'`" killed";
-  done
-  IFS=$OLD_IFS;
-}
 
 alias reload_setup="(cd dotfiles && ./setup.sh)"
 
@@ -36,5 +24,6 @@ source ~/.z.sh
 source ~/.work_related.sh
 source ~/.pretty_prompt.sh
 source ~/.directory_structure.sh
+source ~/.util.sh
 
 export PATH=/usr/local/sbin:$PATH
