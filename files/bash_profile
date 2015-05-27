@@ -25,20 +25,7 @@ killp() {
   IFS=$OLD_IFS;
 }
 
-alias ls='ls -G' # ls with colours!
-alias ll='ls -la'
-alias mkdir="mkdir -pv" # create all subfolders
-function mcd() { 
-    mkdir -p $1 && cd $1 
-}
-
-alias untar="tar xvzf"
 alias reload_bash="source ~/.bash_profile"
-
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
 
 alias g=git
 
@@ -48,5 +35,6 @@ export NVM_DIR=~/.nvm
 source ~/.z.sh
 source ~/.work_related.sh
 source ~/.pretty_prompt.sh
+source ~/.directory_structure.sh
 
 export PATH=/usr/local/sbin:$PATH
