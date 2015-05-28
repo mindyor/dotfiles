@@ -2,7 +2,7 @@ source ~/.bashrc
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-alias reload_setup="(cd dotfiles && ./setup.sh)"
+alias reload_setup="(z dotfiles && ./setup.sh)"
 
 alias g=git
 

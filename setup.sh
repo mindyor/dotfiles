@@ -15,7 +15,7 @@ print_error() {
 source_dotfiles() {
   print_message "\nSourcing dotfiles."
 
-  for file in `ls files`
+  for file in `ls ~/dotfiles/files`
   do
     original_file=$HOME/.$file
     if [ -e $original_file ]; then
