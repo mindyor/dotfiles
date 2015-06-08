@@ -13,3 +13,4 @@
 	pom = push origin master
 	cm = commit -m
 	ca = commit --amend
+	ba = branch --all
