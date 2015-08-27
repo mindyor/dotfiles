@@ -11,3 +11,6 @@ killp() {
   IFS=$OLD_IFS;
 }
 
+findp() {
+  ps aux | grep "$1"
+}
