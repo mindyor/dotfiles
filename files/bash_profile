@@ -1,6 +1,6 @@
 source ~/.bashrc
 
-alias reload_setup="(z dotfiles && ./setup.sh)"
+alias reload_setup="(z dotfiles && ./setup.sh && cd ~)"
 source ~/.z.sh
 source ~/.work_related.sh
 source ~/.pretty_prompt.sh
