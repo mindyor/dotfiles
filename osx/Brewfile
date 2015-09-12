@@ -13,6 +13,8 @@ tap 'caskroom/versions'
 cask 'google-chrome'
 cask 'firefox'
 
+cask 'sublime-text'
+
 cask 'java'
 cask 'java7'
 cask 'java6'
