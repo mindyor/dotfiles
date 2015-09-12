@@ -4,13 +4,12 @@ stty -ixon
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-alias ls="ls -G"
-alias reload_setup="(z dotfiles && ./setup.sh && cd ~)"i
-alias g=git
-
 PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 
+alias ls="ls -G"
+alias reload_setup="(z dotfiles && ./setup.sh && cd ~)"i
+alias g=git
 
 source ~/.z.sh
 source ~/.pretty_prompt.sh
