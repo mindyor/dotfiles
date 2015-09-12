@@ -1,2 +1,2 @@
-brew bundle check --file=/Users/mindyor/dotfiles/files/Brewfile
-brew bundle --file=/Users/mindyor/dotfiles/files/Brewfile
+brew bundle check --file=$HOME/dotfiles/files/Brewfile
+brew bundle --file=$HOME/dotfiles/files/Brewfile
