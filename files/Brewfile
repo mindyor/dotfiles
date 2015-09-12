@@ -7,10 +7,12 @@ brew 'the_silver_searcher'
 #update
 #upgrade
 
-#tap caskroom/cask
+tap 'caskroom/cask'
+tap 'caskroom/versions'
 
 cask 'google-chrome'
 cask 'firefox'
 
-#cask 'java6'
-
+cask 'java'
+cask 'java7'
+cask 'java6'
