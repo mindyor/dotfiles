@@ -6,6 +6,7 @@ source ~/.work_related.sh
 source ~/.pretty_prompt.sh
 source ~/.directory_structure.sh
 source ~/.util.sh
+source ~/.osx_install_apps.sh
 
 source ~/.java_specific.sh
 

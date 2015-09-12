@@ -11,3 +11,6 @@ brew 'the_silver_searcher'
 
 cask 'google-chrome'
 cask 'firefox'
+
+#cask 'java6'
+
