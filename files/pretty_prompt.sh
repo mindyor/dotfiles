@@ -1,7 +1,6 @@
 #export TERM="xterm-color"
 export GREP_OPTIONS="--color"
 #export LSCOLORS="DxGxBxDxCxEgEdxbxgxcxd"
-export TOMCAT_HOME=/usr/local/Cellar/tomcat/8.0.15/libexec
 
 function setup_prompt() {
   BLACK="\[\e[0;30m\]"
