@@ -1,0 +1,13 @@
+tap 'homebrew/bundle'
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
+
+brew 'the_silver_searcher'
+
+#update
+#upgrade
+
+#tap caskroom/cask
+
+cask 'google-chrome'
+cask 'firefox'
