@@ -1,14 +1,5 @@
 source ~/.bashrc
 
-alias reload_setup="(z dotfiles && ./setup.sh && cd ~)"
-source ~/.z.sh
-source ~/.pretty_prompt.sh
-source ~/.directory_structure.sh
-source ~/.util.sh
-source ~/.java_specific.sh
-
-alias g=git
-
 export NVM_DIR=~/.nvm
   source $(brew --prefix nvm)/nvm.sh
 export TOMCAT_HOME=/usr/local/Cellar/tomcat/8.0.15/libexec
