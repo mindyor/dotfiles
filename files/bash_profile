@@ -8,8 +8,8 @@ source ~/.directory_structure.sh
 source ~/.util.sh
 source ~/.java_specific.sh
 
-source ~/.osx_install_apps.sh
-source ~/.osx_pretty.sh
+#source ~/.osx_install_apps.sh
+#source ~/.osx_pretty.sh
 
 alias g=git
 
