@@ -1,6 +1,5 @@
-#export TERM="xterm-color"
 export GREP_OPTIONS="--color"
-#export LSCOLORS="DxGxBxDxCxEgEdxbxgxcxd"
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcxy
 
 function setup_prompt() {
   BLACK="\[\e[0;30m\]"
