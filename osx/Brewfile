@@ -18,3 +18,5 @@ cask 'sublime-text'
 cask 'java'
 cask 'java7'
 cask 'java6'
+
+cask 'evernote'
