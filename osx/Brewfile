@@ -4,8 +4,8 @@ tap 'homebrew/versions'
 
 brew 'the_silver_searcher'
 
-#update
-#upgrade
+# messing around with clojure
+brew 'leiningen'
 
 tap 'caskroom/cask'
 tap 'caskroom/versions'
