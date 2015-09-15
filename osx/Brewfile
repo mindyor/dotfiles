@@ -14,9 +14,12 @@ cask 'google-chrome'
 cask 'firefox'
 
 cask 'sublime-text'
+cask 'iterm2'
+cask 'intellij-idea'
 
 cask 'java'
 cask 'java7'
 cask 'java6'
 
 cask 'evernote'
+cask 'spotify'
