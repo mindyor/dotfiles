@@ -2,6 +2,7 @@ ip() {
   ifconfig -a | grep inet | grep broadcast | awk '{ print $2 }'
 }
 
+# kill the process using this port
 killp() {
   OLD_IFS=$IFS;
   lsof -i :$1 | grep TCP | while IFS= read -r line ; do
