@@ -20,6 +20,7 @@ cask 'intellij-idea'
 cask 'java'
 cask 'java7'
 cask 'java6'
+brew 'subversion17'
 
 cask 'hipchat'
 
