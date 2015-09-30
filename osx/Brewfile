@@ -21,5 +21,7 @@ cask 'java'
 cask 'java7'
 cask 'java6'
 
+cask 'hipchat'
+
 cask 'evernote'
 cask 'spotify'
