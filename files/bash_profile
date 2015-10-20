@@ -2,6 +2,6 @@ source ~/.bashrc
 
 export NVM_DIR=~/.nvm
   source $(brew --prefix nvm)/nvm.sh
-export TOMCAT_HOME=/usr/local/Cellar/tomcat/8.0.15/libexec
+export TOMCAT_HOME=/usr/local/Cellar/tomcat/8.0.26/libexec
 
 export PATH=/usr/local/sbin:$PATH
