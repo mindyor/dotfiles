@@ -3,6 +3,7 @@ tap 'homebrew/dupes'
 tap 'homebrew/versions'
 
 brew 'the_silver_searcher'
+brew 'wget'
 
 # messing around with clojure
 brew 'leiningen'
@@ -20,7 +21,13 @@ cask 'intellij-idea'
 cask 'java'
 cask 'java7'
 cask 'java6'
+brew 'ruby193'
+
+brew 'git'
 brew 'subversion17'
+#link subversion17
+
+brew 'phantomjs182'
 
 cask 'hipchat'
 
