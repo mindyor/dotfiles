@@ -8,8 +8,9 @@
 	sd = svn dcommit
 	pr = pull --rebase
 	lg = !git lgg -10
-	lgg = log --graph --decorate --all --date=relative --pretty=format:'%C(yellow)%h%Creset -%C(white)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset'
 	hard = reset --hard HEAD
+	lgg = log --graph --decorate --all --pretty=format:'%C(yellow)%h%Creset -%C(white)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset'
+	lgd = log --graph --decorate --all --pretty=format:'%C(yellow)%h%Creset %Cgreen(%ad) %C(white)%d%Creset %s %C(blue)<%an>%Creset'
 	pom = push origin master
 	prom = pull --rebase origin master
 	cm = commit -m
