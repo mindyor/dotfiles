@@ -16,4 +16,4 @@ source ~/.pretty_prompt.sh
 source ~/.directory_structure.sh
 source ~/.util.sh
 source ~/.java_specific.sh
-
+source ~/.openstack
