@@ -30,6 +30,8 @@ brew 'subversion17'
 brew 'phantomjs182'
 brew 'rpm2cpio'
 
+cask 'soapui'
+
 cask 'hipchat'
 
 cask 'evernote'
