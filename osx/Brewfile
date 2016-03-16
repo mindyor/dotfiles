@@ -17,6 +17,8 @@ cask 'firefox'
 cask 'sublime-text'
 cask 'iterm2'
 cask 'intellij-idea'
+cask 'appcode'
+cask 'android-studio'
 
 cask 'java'
 cask 'java7'
@@ -30,9 +32,10 @@ brew 'subversion17'
 brew 'phantomjs182'
 brew 'rpm2cpio'
 
-cask 'soapui'
+#cask 'soapui'
 
-cask 'hipchat'
+#cask 'hipchat'
 
 cask 'evernote'
 cask 'spotify'
+cask 'skype'
