@@ -19,3 +19,15 @@
 	br = branch
 	la = !git config -l | grep alias | cut -c 7-
 
+[core]
+	excludesfile = /Users/mindyor/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[diff]
+	submodule = log
+[status]
+	submoduleSummary = true
