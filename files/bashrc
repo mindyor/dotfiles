@@ -17,3 +17,5 @@ source ~/.directory_structure.sh
 source ~/.util.sh
 source ~/.java_specific.sh
 source ~/.openstack
+
+export PATH=$PATH:/Users/mindyor/Library/Android/sdk/build-tools/22.0.1:/Users/mindyor/Library/Android/sdk/platform-tools:/Users/mindyor/Library/Android/sdk/tools:/Users/mindyor/bin
