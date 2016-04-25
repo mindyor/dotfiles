@@ -31,3 +31,5 @@
 	submodule = log
 [status]
 	submoduleSummary = true
+[push]
+	default = simple
