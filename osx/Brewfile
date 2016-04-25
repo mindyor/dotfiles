@@ -26,6 +26,8 @@ cask 'java'
 cask 'java7'
 cask 'java6'
 #brew 'ruby193'
+brew 'python'
+brew 'python3'
 
 brew 'git'
 brew 'subversion17'
