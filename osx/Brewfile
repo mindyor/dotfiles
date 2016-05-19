@@ -4,6 +4,7 @@ tap 'homebrew/versions'
 
 brew 'the_silver_searcher'
 brew 'wget'
+brew 'tree'
 
 # messing around with clojure
 brew 'leiningen'
