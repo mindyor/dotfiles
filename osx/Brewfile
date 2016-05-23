@@ -42,6 +42,8 @@ cask 'charles'
 
 #cask 'hipchat'
 
+cask 'android-file-transfer'
+
 cask 'evernote'
 cask 'spotify'
 cask 'skype'
