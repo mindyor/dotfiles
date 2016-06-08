@@ -41,6 +41,10 @@ brew 'rpm2cpio'
 cask 'charles'
 
 #cask 'hipchat'
+cask screenhero
+cask teleport
+
+cask 1password
 
 cask 'android-file-transfer'
 
