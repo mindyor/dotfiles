@@ -17,5 +17,8 @@ findp() {
 }
 
 adb_ip() {
+  # nexus 7
   adb shell ifconfig wlan0 | grep inet | grep Bcast | awk '{ print $2 }' | cut -d':' -f 2
+  # galaxy view - big
+  adb shell ifconfig wlan0 | awk '{ print $3 }'
 }
