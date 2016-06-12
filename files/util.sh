@@ -15,3 +15,7 @@ killp() {
 findp() {
   ps aux | grep "$1"
 }
+
+adb_ip() {
+  adb shell ifconfig wlan0 | grep inet | grep Bcast | awk '{ print $2 }' | cut -d':' -f 2
+}
