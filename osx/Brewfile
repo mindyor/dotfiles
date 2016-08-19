@@ -6,8 +6,8 @@ brew 'the_silver_searcher'
 brew 'wget'
 brew 'tree'
 
-# messing around with clojure
-brew 'leiningen'
+brew 'aws-elasticbeanstalk'
+brew 'awscli'
 
 tap 'caskroom/cask'
 tap 'caskroom/versions'
@@ -31,19 +31,12 @@ brew 'python'
 brew 'python3'
 
 brew 'git'
-brew 'subversion17'
-#link subversion17
-
-brew 'phantomjs182'
-brew 'rpm2cpio'
 
 #cask 'soapui'
 cask 'charles'
 
-#cask 'hipchat'
 cask 'screenhero'
 cask 'teleport'
-
 
 cask 'android-file-transfer'
 
