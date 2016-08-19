@@ -32,6 +32,8 @@ brew 'python3'
 
 brew 'git'
 
+brew 'node'
+
 #cask 'soapui'
 cask 'charles'
 
@@ -43,3 +45,5 @@ cask 'android-file-transfer'
 cask 'evernote'
 cask 'spotify'
 cask 'skype'
+
+cask 'virtualbox'
