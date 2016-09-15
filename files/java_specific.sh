@@ -6,5 +6,5 @@ function java_use() {
     export PATH=$JAVA_HOME/bin:$PATH
     java -version
 }
-java_use 1.7
+java_use 1.8
 
