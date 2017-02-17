@@ -6,6 +6,8 @@ brew 'the_silver_searcher'
 brew 'wget'
 brew 'tree'
 
+brew 'ansible'
+
 brew 'aws-elasticbeanstalk'
 brew 'awscli'
 
@@ -45,5 +47,8 @@ cask 'android-file-transfer'
 cask 'evernote'
 cask 'spotify'
 cask 'skype'
+cask 'mplayerx'
 
 cask 'virtualbox'
+cask 'docker'
+cask 'docker-toolbox'
