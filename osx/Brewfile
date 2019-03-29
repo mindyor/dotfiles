@@ -3,8 +3,9 @@ tap 'homebrew/bundle'
 brew 'the_silver_searcher'
 brew 'wget'
 brew 'tree'
+brew 'jq'
 
-brew 'ansible'
+#brew 'ansible'
 
 brew 'aws-elasticbeanstalk'
 brew 'awscli'
@@ -36,11 +37,12 @@ brew 'node'
 
 #cask 'soapui'
 cask 'charles'
+cask 'wireshark'
 
 #cask 'android-file-transfer'
 
 cask 'evernote'
-#cask 'spotify'
+cask 'spotify'
 cask 'skype'
 #cask 'mplayerx'
 
@@ -49,4 +51,5 @@ cask 'docker'
 #cask 'docker-toolbox'
 
 cask 'zoomus'
+cask 'blue-jeans'
 
