@@ -23,6 +23,7 @@ cask 'intellij-idea'
 #cask 'android-studio'
 #cask 'pycharm'
 
+cask 'java11'
 cask 'java8'
 cask 'java6'
 #brew 'ruby193'
