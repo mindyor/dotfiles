@@ -1,9 +1,0 @@
----
-openstack:
-  user: "<%= ENV['OPENSTACK_USER'] %>"
-  password: "<%= ENV['OPENSTACK_PASSWORD'] %>"
-  tenant: "<%= ENV['OPENSTACK_TENANT'] %>"
-  auth_method: "<%= ENV['OPENSTACK_AUTH_METHOD'] %>"
-  server_url: "<%= ENV['OPENSTACK_SERVER_URL'] %>"
-  ssh_key: "<%= ENV['OPENSTACK_SSH_KEY'] %>"
-  key_name: "<%= ENV['OPENSTACK_SSH_KEY_NAME'] %>"
