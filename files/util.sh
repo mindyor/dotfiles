@@ -22,3 +22,9 @@ adb_ip() {
   # galaxy view - big
   adb shell ifconfig wlan0 | awk '{ print $3 }'
 }
+
+kill_cam() {
+  sudo killall VDCAssistant
+  sudo killall AppleCameraAssistant
+}
+
