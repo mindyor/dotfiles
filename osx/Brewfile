@@ -43,7 +43,7 @@ cask 'evernote'
 cask 'skype'
 #cask 'mplayerx'
 
-cask 'virtualbox'
+#cask 'virtualbox'
 cask 'docker'
 cask 'docker-toolbox'
 
