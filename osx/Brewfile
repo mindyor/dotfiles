@@ -41,6 +41,8 @@ cask 'wireshark'
 
 #cask 'android-file-transfer'
 
+cask 'slack'
+
 cask 'evernote'
 cask 'spotify'
 cask 'skype'
