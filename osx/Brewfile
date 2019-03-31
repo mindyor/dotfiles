@@ -55,6 +55,8 @@ cask 'whatsapp'
 cask 'docker'
 #cask 'docker-toolbox'
 
+cask '1password'
+
 cask 'zoomus'
 cask 'blue-jeans'
 
