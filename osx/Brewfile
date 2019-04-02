@@ -1,14 +1,23 @@
 tap 'homebrew/bundle'
 
+brew 'git'
+
 brew 'the_silver_searcher'
 brew 'wget'
 brew 'tree'
 brew 'jq'
 
-#brew 'ansible'
+brew 'python'
+brew 'python3'
+brew 'node'
 
-brew 'aws-elasticbeanstalk'
-brew 'awscli'
+brew 'gradle'
+
+#brew 'ansible'
+#brew 'aws-elasticbeanstalk'
+#brew 'awscli'
+
+#brew 'ruby193'
 
 tap 'caskroom/cask'
 tap 'caskroom/versions'
@@ -20,43 +29,37 @@ cask 'postman'
 cask 'sublime-text'
 cask 'iterm2'
 cask 'intellij-idea'
-#cask 'appcode'
-#cask 'android-studio'
-#cask 'pycharm'
 
 cask 'java11'
 cask 'java8'
 cask 'java6'
-#brew 'ruby193'
-brew 'python'
-brew 'python3'
 
-#brew 'git'
+cask 'docker'
 
-brew 'node'
-
-#cask 'soapui'
 cask 'charles'
 cask 'wireshark'
-
-#cask 'android-file-transfer'
 
 cask 'slack'
 
 cask 'evernote'
 cask 'spotify'
 cask 'skype'
-#cask 'mplayerx'
+cask '1password'
 
 cask 'signal'
 cask 'whatsapp'
 
-#cask 'virtualbox'
-cask 'docker'
-#cask 'docker-toolbox'
-
-cask '1password'
-
 cask 'zoomus'
 cask 'blue-jeans'
 
+cask 'istat-menus'
+
+#cask 'appcode'
+#cask 'android-studio'
+#cask 'pycharm'
+
+#cask 'android-file-transfer'
+
+#cask 'soapui'
+
+#cask 'mplayerx'
