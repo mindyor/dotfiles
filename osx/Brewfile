@@ -11,8 +11,6 @@ brew 'python'
 brew 'python3'
 brew 'node'
 
-brew 'gradle'
-
 #brew 'ansible'
 #brew 'aws-elasticbeanstalk'
 #brew 'awscli'
