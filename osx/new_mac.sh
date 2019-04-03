@@ -1,2 +1,2 @@
-source osx_pretty.sh
-source osx_install_apps.sh
+source pretty.sh
+source install_apps.sh
