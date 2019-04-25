@@ -52,6 +52,9 @@ cask 'blue-jeans'
 
 cask 'istat-menus'
 
+cask 'steam'
+cask 'discord'
+
 #cask 'appcode'
 #cask 'android-studio'
 #cask 'pycharm'
