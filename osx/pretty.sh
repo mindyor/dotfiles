@@ -12,3 +12,10 @@ defaults write com.apple.Dock tilesize -int 24
 killall Dock
 
 ##### #####
+
+
+
+# Languages
+defaults write "Apple Global Domain" "AppleLanguages" "("en-US","pt-BR","zh-Hans-US","zh-Hant-US")"
+
+
