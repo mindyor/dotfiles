@@ -7,6 +7,9 @@ brew 'wget'
 brew 'tree'
 brew 'jq'
 
+brew 'java11'
+brew 'java6'
+
 brew 'python'
 brew 'python3'
 brew 'node'
@@ -17,8 +20,8 @@ brew 'node'
 
 #brew 'ruby193'
 
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
 
 cask 'google-chrome'
 cask 'firefox'
@@ -27,10 +30,6 @@ cask 'postman'
 cask 'sublime-text'
 cask 'iterm2'
 cask 'intellij-idea'
-
-cask 'java11'
-cask 'java8'
-cask 'java6'
 
 cask 'docker'
 
@@ -47,10 +46,10 @@ cask '1password'
 cask 'signal'
 cask 'whatsapp'
 
-cask 'zoomus'
-cask 'blue-jeans'
+cask 'zoom'
+#cask 'blue-jeans'
 
-cask 'istat-menus'
+#cask 'istat-menus'
 
 cask 'steam'
 cask 'discord'
