@@ -1,8 +1,13 @@
 # ctrl + s to move forward in the reverse history search
 stty -ixon
 
+#export NVM_DIR=~/.nvm
+#  source $(brew --prefix nvm)/nvm.sh
+
+export PATH=/usr/local/sbin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
 
 alias ls="ls -G"
 alias reload_setup="(z dotfiles && ./setup.sh && cd ~)"

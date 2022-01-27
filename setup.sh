@@ -31,4 +31,4 @@ source_dotfiles() {
 source_dotfiles
 
 print_message "Done!"
-exec bash --login
+exec zsh --login
